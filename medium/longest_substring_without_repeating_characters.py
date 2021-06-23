@@ -19,5 +19,5 @@ def lengthOfLongestSubstring(s: str) -> int:
 
 if __name__ == '__main__':
     s = "abcabcbb"
-    # s = "dvdf"
+    s = "dvdf"
     print(lengthOfLongestSubstring(s))

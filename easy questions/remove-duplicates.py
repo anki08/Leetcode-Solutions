@@ -8,5 +8,6 @@ def removeDuplicates(nums) -> int:
         if i != j:
             nums[i] = nums[j]
 
+
 if __name__ == '__main__':
-    print(removeDuplicates([1,1,2]))
+    print(removeDuplicates([1, 1, 2]))

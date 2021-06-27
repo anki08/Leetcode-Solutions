@@ -20,6 +20,7 @@ def findShortestSubArray(nums) -> int:
             min_sub = min(min_sub, (value[2] - value[1] + 1))
     return min_sub
 
+
 if __name__ == '__main__':
-    arr = [1,2]
+    arr = [1, 2]
     print(findShortestSubArray(arr))

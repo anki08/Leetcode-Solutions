@@ -9,6 +9,7 @@ def dailyTemperatures(temperatures):
         stack.append((temperatures[x], x))
     return res
 
+
 if __name__ == '__main__':
     temperatures = [73, 74, 75, 71, 69, 72, 76, 73]
     # temperatures = [73]

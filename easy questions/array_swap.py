@@ -1,4 +1,3 @@
-
 def moveZeroes(nums):
     """
     Do not return anything, modify nums in-place instead.
@@ -11,6 +10,7 @@ def moveZeroes(nums):
             zero += 1
     return nums
 
+
 if __name__ == '__main__':
-    a = [0,1,0,3,12]
+    a = [0, 1, 0, 3, 12]
     print(moveZeroes(a))

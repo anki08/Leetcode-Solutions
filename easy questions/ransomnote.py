@@ -13,6 +13,7 @@ def canConstruct(ransomNote: str, magazine: str) -> bool:
             return False
     return True
 
+
 if __name__ == '__main__':
     a = "aa"
     b = "ab"

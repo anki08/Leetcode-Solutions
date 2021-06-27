@@ -5,5 +5,6 @@ def minMoves(nums) -> int:
         count += nums[i] - nums[0]
     return count
 
+
 if __name__ == '__main__':
     print(minMoves([13, 18, 3, 10, 35, 68, 50, 20, 50]))

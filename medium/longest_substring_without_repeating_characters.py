@@ -16,7 +16,6 @@ def lengthOfLongestSubstring(s: str) -> int:
     return ans
 
 
-
 if __name__ == '__main__':
     s = "abcabcbb"
     s = "dvdf"

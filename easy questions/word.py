@@ -8,6 +8,8 @@ def longestWord(words) -> str:
             return word
     return ""
 
+
 if __name__ == '__main__':
-    words = ["k","lg","it","oidd","oid","oiddm","kfk","y","mw","kf","l","o","mwaqz","oi","ych","m","mwa"]
+    words = ["k", "lg", "it", "oidd", "oid", "oiddm", "kfk", "y", "mw", "kf", "l", "o", "mwaqz", "oi", "ych", "m",
+             "mwa"]
     print(longestWord(words))

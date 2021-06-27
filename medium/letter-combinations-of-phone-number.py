@@ -1,7 +1,6 @@
 def letterCombinations(digits: str):
-    if(len(digits) == 0):
-        return  0
-
+    if (len(digits) == 0):
+        return 0
 
     num_map = {
         '2': "abc",
@@ -15,21 +14,19 @@ def letterCombinations(digits: str):
     }
     res = []
 
-
     def backtrack(index, substring):
-        if(len(substring) == len(digits)):
+        if (len(substring) == len(digits)):
             res.append("".join(substring))
             return res
 
         possible_characters = num_map[digits[index]]
         for i in range(len(possible_characters)):
             substring.append(possible_characters[i])
-            backtrack(index+1, substring)
+            backtrack(index + 1, substring)
             substring.pop()
 
-    backtrack(0,[])
+    backtrack(0, [])
     return res
-
 
 
 if __name__ == '__main__':

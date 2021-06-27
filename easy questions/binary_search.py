@@ -10,12 +10,14 @@ def firstBadVersion(n):
         if (isBadVersion(mid)):
             high = mid
         else:
-            low = mid +1
+            low = mid + 1
     return low
 
+
 def isBadVersion(n):
-    if(n>=4):
+    if (n >= 4):
         return True
+
 
 if __name__ == '__main__':
     print(firstBadVersion(5))

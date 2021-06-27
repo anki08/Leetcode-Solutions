@@ -3,8 +3,8 @@ def intersect(nums1, nums2):
     nums2 = sorted(nums2)
     res = []
     i, j = 0, 0
-    while(i < len(nums1) and j < len(nums2)):
-        if(nums1[i] == nums2[j]):
+    while (i < len(nums1) and j < len(nums2)):
+        if (nums1[i] == nums2[j]):
             res.append(nums1[i])
             i += 1
             j += 1
@@ -15,7 +15,8 @@ def intersect(nums1, nums2):
 
     return res
 
+
 if __name__ == '__main__':
-    a1 = [1,2,2,1]
-    a2 = [2,2]
+    a1 = [1, 2, 2, 1]
+    a2 = [2, 2]
     print(intersect(a1, a2))

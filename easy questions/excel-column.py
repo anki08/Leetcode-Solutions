@@ -42,5 +42,6 @@ def convertToTitle(columnNumber) -> str:
 
     return res[::-1]
 
+
 if __name__ == '__main__':
     print(convertToTitle(52))

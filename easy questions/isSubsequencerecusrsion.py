@@ -1,15 +1,13 @@
 def isSubsequence(s: str, t: str) -> bool:
-
-
     def subsequenceUtil(s_i, t_i):
-        if(s_i == len(s)):
+        if (s_i == len(s)):
             return True
         if (t_i == len(t)):
             return False
-        if(s[s_i] == t[t_i]):
-            return subsequenceUtil(s_i+1, t_i+1)
+        if (s[s_i] == t[t_i]):
+            return subsequenceUtil(s_i + 1, t_i + 1)
         else:
-            return subsequenceUtil(s_i, t_i+1)
+            return subsequenceUtil(s_i, t_i + 1)
 
     return subsequenceUtil(0, 0)
 

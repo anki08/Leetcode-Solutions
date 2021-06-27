@@ -1,6 +1,8 @@
 import collections
 
 _end = '_end_'
+
+
 def make_trie(words):
     root = dict()
     for word in words:
@@ -33,6 +35,7 @@ def longestWord(words):
 
     return ans
 
+
 # print(make_trie('foo', 'bar', 'baz', 'barz'))
 if __name__ == '__main__':
-    print(longestWord(words=["a","banana","app","appl","ap","apply","apple"]))
+    print(longestWord(words=["a", "banana", "app", "appl", "ap", "apply", "apple"]))

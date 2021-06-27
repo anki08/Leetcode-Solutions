@@ -24,6 +24,6 @@ class Logger:
 
 
 log = Logger()
-arr = [[1,"foo"],[2,"bar"],[3,"foo"],[8,"bar"],[10,"foo"],[11,"foo"]]
+arr = [[1, "foo"], [2, "bar"], [3, "foo"], [8, "bar"], [10, "foo"], [11, "foo"]]
 for i in range(len(arr)):
     log.shouldPrintMessage(arr[i][0], arr[i][1])

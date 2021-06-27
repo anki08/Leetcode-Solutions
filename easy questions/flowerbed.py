@@ -12,6 +12,7 @@ def canPlaceFlowers(flowerbed, n) -> bool:
         return True
     return False
 
+
 if __name__ == '__main__':
-    bed = [0,0,1,0,0]
+    bed = [0, 0, 1, 0, 0]
     print(canPlaceFlowers(bed, 2))

@@ -18,7 +18,9 @@ def isAlienSorted(words, order) -> bool:
 
     return True
 
+
 if __name__ == '__main__':
-    words = ["zezwvpdhkhc","nldmzkh","qvjpbis","gxntgh","knkdjzzxkv","qyymcxdjut","htjghmlc","qxgxzmgbodnj","hkmhfenu","tlbjlaw"]
+    words = ["zezwvpdhkhc", "nldmzkh", "qvjpbis", "gxntgh", "knkdjzzxkv", "qyymcxdjut", "htjghmlc", "qxgxzmgbodnj",
+             "hkmhfenu", "tlbjlaw"]
     order = "pojvhubakxzqtlesmcwydinrfg"
     print(isAlienSorted(words, order))

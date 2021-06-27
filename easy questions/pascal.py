@@ -9,5 +9,6 @@ def generate(numRows):
 
     return res
 
+
 if __name__ == '__main__':
     print(generate(5))

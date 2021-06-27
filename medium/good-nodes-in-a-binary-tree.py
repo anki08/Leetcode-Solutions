@@ -2,7 +2,7 @@ def goodNodes(self, root) -> int:
     if root is None:
         return 0
 
-    return 1 + self.goodnodesUtil(root.left, root.val)+ self.goodnodesUtil(root.right, root.val)
+    return 1 + self.goodnodesUtil(root.left, root.val) + self.goodnodesUtil(root.right, root.val)
 
 
 def goodnodesUtil(self, root, max_val):

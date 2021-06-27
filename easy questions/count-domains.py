@@ -7,7 +7,7 @@ def subdomainVisits(cpdomains):
         arr = []
         for i in range(len(sub_domains)):
             str_res = sub_domains[i]
-            for j in range(i+1, len(sub_domains)):
+            for j in range(i + 1, len(sub_domains)):
                 str_res = str_res + "." + sub_domains[j]
             arr.append(str_res)
         sub_domains = arr
@@ -19,11 +19,10 @@ def subdomainVisits(cpdomains):
 
     print(subdomains_dict)
     res = []
-    for k,v in subdomains_dict.items():
+    for k, v in subdomains_dict.items():
         s = str(v) + " " + k
         res.append(s)
     print(res)
-
 
 
 if __name__ == '__main__':

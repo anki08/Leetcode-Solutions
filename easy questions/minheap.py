@@ -1,5 +1,6 @@
 from heapq import heapify, heappush, heappop, heappushpop
 
+
 class KthLargest:
 
     def __init__(self, k, nums):
@@ -23,6 +24,7 @@ class KthLargest:
         else:
             heappushpop(self.k_heap, val)
         return self.k_heap[0]
+
 
 if __name__ == '__main__':
     heap = KthLargest(3, [4, 5, 8, 2])

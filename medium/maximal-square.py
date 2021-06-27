@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def maximalSquare( matrix) -> int:
+def maximalSquare(matrix) -> int:
     matrix = np.array(matrix)
     R, C = matrix.shape
     dp = np.zeros(C + 1, dtype=int)
@@ -19,7 +19,8 @@ def maximalSquare( matrix) -> int:
             prev = temp
     return max_val ** 2
 
+
 if __name__ == '__main__':
-    matrix = [["0","1"],["1","0"]]
+    matrix = [["0", "1"], ["1", "0"]]
     matrix = [["0"]]
     print(maximalSquare(matrix))

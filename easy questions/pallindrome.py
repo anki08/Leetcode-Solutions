@@ -15,6 +15,7 @@ def is_pallin(s):
             return False
     return True
 
+
 if __name__ == '__main__':
     s = "A man, a plan, a canal: Panama"
     s = "madam"

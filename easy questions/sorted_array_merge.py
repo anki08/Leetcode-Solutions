@@ -17,7 +17,6 @@ def merge(nums1, m: int, nums2, n) -> None:
     print(nums1)
 
 
-
 if __name__ == '__main__':
     a1 = [1, 2, 3, 0, 0, 0]
     m = 3

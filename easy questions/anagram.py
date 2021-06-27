@@ -22,5 +22,6 @@ def isAnagram(s: str, t: str) -> bool:
 
     return True
 
+
 if __name__ == '__main__':
-    print(isAnagram(s,t))
+    print(isAnagram(s, t))

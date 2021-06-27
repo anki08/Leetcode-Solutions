@@ -1,4 +1,4 @@
-def slowestKey( releaseTimes, keysPressed):
+def slowestKey(releaseTimes, keysPressed):
     hashkey = {}
     for i in range(len(keysPressed)):
         if (keysPressed[i] in hashkey):
@@ -10,13 +10,13 @@ def slowestKey( releaseTimes, keysPressed):
             hashkey[keysPressed[i]] = val
 
     max_val = 0
-    lexi_keys = sorted(hashkey,reverse=True)
-    max_values = sorted(hashkey.values(),reverse=True)
+    lexi_keys = sorted(hashkey, reverse=True)
+    max_values = sorted(hashkey.values(), reverse=True)
     max_value = max_values[0]
     for i in lexi_keys:
-        if(hashkey[i] == max_value):
+        if (hashkey[i] == max_value):
             return i
 
 
 if __name__ == '__main__':
-    print(slowestKey([9,29,49,50], "cbcd"))
+    print(slowestKey([9, 29, 49, 50], "cbcd"))

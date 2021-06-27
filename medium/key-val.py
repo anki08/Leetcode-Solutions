@@ -22,13 +22,13 @@ class TimeMap:
                 if (timestamp >= val_list[i][0] and (i == len(val_list) - 1 or timestamp < val_list[i + 1][0])):
                     found = True
                     return val_list[i][1]
-        if(found == False):
+        if (found == False):
             return "null"
 
 
 if __name__ == '__main__':
     obj = TimeMap()
-    obj.set("love","high",10)
+    obj.set("love", "high", 10)
     obj.set("love", "low", 20)
     param_2 = obj.get("love", 5)
     # param_3 = obj.get("love", 10)
@@ -40,5 +40,3 @@ if __name__ == '__main__':
     # print(param_4)
     # print(param_6)
     # print(param_5)
-
-

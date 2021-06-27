@@ -12,4 +12,4 @@ def maximumUnits(boxTypes, truckSize: int) -> int:
 
 
 if __name__ == '__main__':
-    print(maximumUnits([[5,10],[2,5],[4,7],[3,9]], 10))
+    print(maximumUnits([[5, 10], [2, 5], [4, 7], [3, 9]], 10))

@@ -8,6 +8,7 @@ def largestDivisibleSubset_(nums):
         for j in range(i):
             if ((nums[i] % nums[j] == 0 or nums[j] % nums[i] == 0) and dp[i] < dp[j] + 1):
                 dp[i] = dp[j] + 1
+    print(dp)
     max_length = max(dp)
     max_index = np.argmax(dp)
     print(max_index, max_length)
@@ -32,4 +33,4 @@ def largestDivisibleSubset(nums):
 if __name__ == '__main__':
     # print(largestDivisibleSubset([1,2,4,8]))
     # print(largestDivisibleSubset([5,9,18, 54, 90, 108, 180, 360, 540]))
-    print(largestDivisibleSubset([4, 8, 10, 240]))
+    print(largestDivisibleSubset_([4, 8, 10, 240]))

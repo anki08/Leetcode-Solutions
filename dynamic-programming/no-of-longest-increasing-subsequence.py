@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def findNumberOfLIS(nums) -> int:
     count = 0
     dp = np.ones(len(nums), dtype=int)
@@ -23,5 +22,5 @@ def findNumberOfLIS(nums) -> int:
 
 if __name__ == '__main__':
     print(findNumberOfLIS([1, 3, 5, 4, 7]))
-    print(findNumberOfLIS([2, 2, 2, 2, 2]))
-    print(findNumberOfLIS([1, 2, 4, 3, 5, 4, 7, 2]))
+    # print(findNumberOfLIS([2, 2, 2, 2, 2]))
+    # print(findNumberOfLIS([1, 2, 4, 3, 5, 4, 7, 2]))

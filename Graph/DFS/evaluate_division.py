@@ -21,9 +21,9 @@ class Solution:
             visited.remove(curr_node)
             return ret
 
-        # Step 1). build the graph from the equations
+        # Step 1). build the Graph from the equations
         for (dividend, divisor), value in zip(equations, values):
-            # add nodes and two edges into the graph
+            # add nodes and two edges into the Graph
             graph[dividend][divisor] = value
             graph[divisor][dividend] = 1 / value
 

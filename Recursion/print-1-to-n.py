@@ -1,5 +1,6 @@
 def print_f(n):
-    if n == 0:
+    if n == 1:
+        print(n)
         return
     print_f(n-1)
     print (n)

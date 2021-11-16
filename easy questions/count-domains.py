@@ -26,5 +26,5 @@ def subdomainVisits(cpdomains):
 
 
 if __name__ == '__main__':
-    subdomains = ["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]
+    subdomains = ["900 Google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]
     subdomainVisits(subdomains)

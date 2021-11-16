@@ -1,6 +1,4 @@
 import numpy as np
-
-
 def largestDivisibleSubset_(nums):
     nums = sorted(nums)
     dp = np.ones(len(nums), dtype=int)
@@ -19,7 +17,6 @@ def largestDivisibleSubset_(nums):
             ans.append(nums[i])
             max_length -= 1
     return ans[::-1]
-
 
 def largestDivisibleSubset(nums):
     dp = {-1: set()}

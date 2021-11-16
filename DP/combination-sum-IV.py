@@ -19,9 +19,9 @@ def combinationSum4(nums, target) -> int:
         for j in range(1, n):
             curr = nums[j]
             if(curr <= i):
-                dp[i][j] = dp[i-curr][j] + dp[i][j-1]+ dp[i-curr][j-1] + dp[i][j]
+                dp[i][j] += dp[i-curr][j] + dp[i][j-1]+ dp[i-curr][j-1]
             else:
-                dp[i][j] = dp[i][j-1] + dp[i][j]
+                dp[i][j] = dp[i][j-1]
 
     print(dp)
 

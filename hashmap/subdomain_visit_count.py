@@ -27,4 +27,4 @@ class Solution:
 if __name__ == '__main__':
     sol = Solution()
     print(sol.subdomainVisits(["9001 discuss.leetcode.com"]))
-    print(sol.subdomainVisits(["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]))
+    print(sol.subdomainVisits(["900 Google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]))
